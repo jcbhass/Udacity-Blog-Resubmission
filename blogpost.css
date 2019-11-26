@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 10px;
+  margin: 10px; 
+  background-color: #000000;
+  color: #ffffff;
+}
+
+@media(min-width: 320px){
+  .container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "hd hd hd"
+    "nb nb nb"
+    "ab ab ab"
+    "bp bp bp"
+    "mn mn mn"
+    "ft ft ft";
+    background-color: #444;
+    overflow: hidden;
+  }
+}
+
+.header {
+  grid-area: hd;
+  color: rgb(87, 3, 3);
+  text-decoration: underline;
+  font-size: 25px;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+} 
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+.navBar {
+  grid-area: nb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 75px;
+}
+
+.navbarlist {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbarlistdot { 
+  font-size: 25px;
+  display: inline;
+  padding: 0px 20px 0px 20px;
+}
+
+.anchor-hover {
+  text-decoration: none;
+}
+ 
+.anchor-hover:link, .anchor-hover:visited {
+  color: black;
+}
+
+.anchor-hover:hover {
+  color: red;
+}
+
+.about-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+#Markus-my-dog {
+  border-radius: 50%;
+}
+
+.blogpost {
+  grid-area: bp;
+}
+
+.content {
+  grid-area: mn;
+}
+
+.footer {
+  grid-area: ft;  
+}
+
+@media(min-width:900px) {
+  .container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr, 1fr;
+    grid-template-rows: 50%, 50%;
+    grid-template-areas: 
+    "hd hd hd hd hd hd hd"
+    "nb nb nb nb nb nb nb" 
+    "mn mn mn mn mn ab ab"
+    "bp bp bp bp bp ab ab"
+    "ft ft ft ft ft ft ft";
+  }
+}

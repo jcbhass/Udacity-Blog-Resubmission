@@ -1,0 +1,33 @@
+#navbox {
+    font-size: 25px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    grid-area: nb;
+    justify-content: center;
+    border: 2px solid #000000;
+    max-height: 75%;
+}
+
+.anchor {
+    text-decoration: none;
+}
+
+.anchor:link, .anchor:visited {
+    color: black;
+}
+
+.anchor:hover {
+    color: red;
+}
+
+.navunordered {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navlist {
+    display: inline;
+    padding: 0px 20px 0px 20px;
+}

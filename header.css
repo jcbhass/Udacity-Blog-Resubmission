@@ -1,0 +1,8 @@
+.headerbox {
+    background-image: url('images/logo.png');
+    background-size: 100%;
+    color: rgb(87, 3, 3);
+    grid-area:hd;
+    font-size: 20px;
+    text-align: center;    
+}
