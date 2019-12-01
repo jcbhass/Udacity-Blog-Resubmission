@@ -22,12 +22,12 @@
     color: red;
 }
 
-.navunordered {
+.nav-unordered {
     margin: 0px;
     padding: 0px;
 }
 
-.navlist {
+.nav-list {
     display: inline;
     padding: 0px 20px 0px 20px;
 }

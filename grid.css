@@ -1,4 +1,4 @@
-.nestedGrid{
+.nested-Grid{
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
@@ -7,14 +7,17 @@
     text-align: center;
 }
   
-.nestedGrid > *{
+.nested-Grid > *{
 border: 2px solid #000000;
 background-color: #666;
 }
 
-img {
+.images {
     max-width: 100%;
     display: block;
     height: auto;
 }
   
+.card {
+    box-shadow: 0 4px 8px 0 rgb(0,0,0,0.2);
+}

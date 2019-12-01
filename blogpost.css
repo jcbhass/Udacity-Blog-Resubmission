@@ -36,7 +36,7 @@ body {
   margin: 0px;
 } 
 
-img {
+.blog-images {
   max-width: 100%;
   display: block;
   height: auto;
